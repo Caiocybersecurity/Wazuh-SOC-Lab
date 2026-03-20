@@ -31,6 +31,10 @@ Para validar o SOC, executei uma simulação de ataque baseada no framework **MI
 * **Detecção:** O Microsoft Defender neutralizou a ameaça localmente.
 * **Visibilidade SOC:** O Wazuh capturou o evento e gerou um alerta de **Alta Severidade (Nível 12-14)** no Dashboard, detalhando o tipo de ameaça e o caminho do ficheiro.
 
+![Malware-EICAR](virus_eicar.png)
+
+![alertas nivel 12](alerta_nv12.png)
+
 ### **Fase 2: Persistência e Reconhecimento**
 * **Ação:** Execução de comandos de descoberta (`whoami`, `net user`) e tentativa de criação de novos utilizadores via PowerShell.
 * **Monitorização:** Captura de logs de criação de processos suspeitos e alterações na base de dados de utilizadores locais através do monitor de integridade (FIM).
@@ -42,13 +46,16 @@ Para validar o SOC, executei uma simulação de ataque baseada no framework **MI
 
 ## 📊 Resultados e Evidências
 
-* **Status do Agente:**
+*  **Status do Agente:**
+
  ![Status do Agente](agente_active.png)
 
 * **Alertas de Malware:**
+ 
 ![Alertas de Alta Severidade](alertas_defender.png)
 
 * **Terminal Ubuntu:**
+ 
 ![Terminal Ubuntu](terminal_ubuntu.png)
   
 
