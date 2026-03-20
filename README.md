@@ -43,13 +43,13 @@ Para validar o SOC, executei uma simulação de ataque baseada no framework **MI
 ## 📊 Resultados e Evidências
 
 * **Status do Agente:**
- ![Status do Agente](screenshots/agente_active.png)
+ ![Status do Agente](agente_active.png)
 
 * **Alertas de Malware:**
-![Alertas de Alta Severidade](screenshots/alertas_defender.png)
+![Alertas de Alta Severidade](alertas_defender.png)
 
 * **Terminal Ubuntu:**
-![Terminal Ubuntu](screenshots/terminal_ubuntu.png)
+![Terminal Ubuntu](terminal_ubuntu.png)
   
 
 ---
